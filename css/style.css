@@ -1,64 +1,26 @@
 
-
-body {
-  font-family: Franklin Gothic;
-  background-color: #1d1d1d;
-  color: white;
-  margin: 0;
+* {
+  border: 1px red dashed;
 }
 
-header {
-  background-color: white;
-  color: #1d1d1d;
-  padding: 20px 0;
-  margin: 60px auto 0;
-}
-
-main {
-  background-color: #1d1d1d;
-  color: white;
-  border-width: 10px;
-  border-top-color: rgb(24, 125, 239);
-  padding: 50px 0;
+.name_row {
   text-align: center;
 }
 
-footer {
-  background-color: rgb(24, 125, 239);
-  color: white;
-  padding: 30px;
+
+.main_container {
+  margin: 100px auto;
+  width: 700px;
+}
+
+.icons_row {
   text-align: center;
-}
-
-h1 {
-  font-weight: 500;
-  text-align: center;
-  font-size: 40px;
-}
-
-p {
-  font-size: 20px;
-}
-
-img {
-  width: 50px;
-  margin: 10px 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #profile_pic {
-  width: 400px;
-  padding: 30px;
-  padding: inherit;
-  margin: 0 auto;
+  width: 250px;
   display: block;
-}
-
-.columns {
-  display: flex;
-  margin: 0 90px;
-  background-color: green;
-}
-
-.column {
-  margin: 0 auto;
+  margin: 30px auto
 }
