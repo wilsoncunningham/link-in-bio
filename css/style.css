@@ -25,6 +25,11 @@ a {
   color: white;
 }
 
+.image-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .name_row {
   text-align: center;
   margin-bottom: 30px;
@@ -36,10 +41,12 @@ a {
   max-width: 640px;
 }
 
-.icons_row {
+.social_icons_row {
   text-align: center;
   display: flex;
   justify-content: space-around;
+  /* align-content: center; */
+  margin-bottom: 30px
 }
 
 .icon_img {
@@ -64,4 +71,5 @@ a {
 
 .link_item {
   background-color: rgba(149, 123, 173, 0.5);
+    margin-bottom: 20px;
 }
