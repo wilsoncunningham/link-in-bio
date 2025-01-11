@@ -3,6 +3,14 @@
   border: 1px red dashed;
 }
 
+
+body {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(180deg, #00c3ff, #14a7e4, #1c8bc7, #1e71ab, #1c578d, #174071, #0f2954, #061539);
+}
+
 .name_row {
   text-align: center;
 }
