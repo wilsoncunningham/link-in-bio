@@ -41,6 +41,7 @@ a {
 .main_container {
   margin: 20px auto;
   max-width: 640px;
+  padding: 0 8px;
 }
 
 .social_icons_row {
