@@ -19,8 +19,22 @@
   justify-content: space-around;
 }
 
-#profile_pic {
-  width: 250px;
+.icon_img {
+  width: 60px;
+}
+
+.avatar-image {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 128px;
   display: block;
   margin: 30px auto
+}
+
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
 }
