@@ -51,6 +51,14 @@ a {
   margin-bottom: 30px
 }
 
+.icon {
+  transition: all 0.4s;
+}
+
+.icon:hover {
+  transform: scale(1.2)
+}
+
 .icon_img {
   width: 50px;
   display: block;
