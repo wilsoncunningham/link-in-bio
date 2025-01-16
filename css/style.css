@@ -82,6 +82,11 @@ a {
   padding: 5px;
   padding-right: 53px;
   box-shadow: 4px 4px 10px 0px rgba(12, 13, 13, 0.8);
+  transition: background-color 0.5s
+}
+
+.link_item:hover {
+  background-color: rgba(102, 118, 123, 0.8);
 }
 
 .link-text {
